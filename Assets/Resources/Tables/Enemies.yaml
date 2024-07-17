@@ -1,0 +1,59 @@
+- variant: ordinary
+  kineticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  energeticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  kineticDamage: 20.0
+  energeticDamage: 0.0
+  maxHealth: 100.0
+  moveSpeed: 1.5
+  turnSpeed: 640.0
+  experienceAmount: 1.0
+  currencyAmount: 0.1
+
+- variant: fast
+  kineticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  energeticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  kineticDamage: 20.0
+  energeticDamage: 10.0
+  maxHealth: 75.0
+  moveSpeed: 6.0
+  turnSpeed: 80.0
+  experienceAmount: 5.0
+  currencyAmount: 0.5
+
+- variant: armored
+  kineticDamageResistance:
+    block: 10.0
+    reduction: 0.5
+  energeticDamageResistance:
+    block: 1.0
+    reduction: 0.5
+  kineticDamage: 50.0
+  energeticDamage: 50.0
+  maxHealth: 200.0
+  moveSpeed: 0.75
+  turnSpeed: 640.0
+  experienceAmount: 20.0
+  currencyAmount: 1.0
+
+- variant: boss
+  kineticDamageResistance:
+    block: 10.0
+    reduction: 0.5
+  energeticDamageResistance:
+    block: 10.0
+    reduction: 0.5
+  kineticDamage: 50.0
+  energeticDamage: 50.0
+  maxHealth: 2000.0
+  moveSpeed: 0.75
+  turnSpeed: 640.0
+  experienceAmount: 20.0
+  currencyAmount: 10.0

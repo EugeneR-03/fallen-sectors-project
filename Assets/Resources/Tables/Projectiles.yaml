@@ -1,0 +1,62 @@
+- variant: kineticProjectile1
+  kineticDamage: 5.0
+  energeticDamage: 0.0
+  moveSpeed: 5.0
+  turnSpeed: 640.0
+  lifeTime: 3.0
+  penetrationCount: 1
+  explosionRadius: 0.0
+
+- variant: kineticProjectile2
+  kineticDamage: 10.0
+  energeticDamage: 0.0
+  moveSpeed: 6.5
+  turnSpeed: 640.0
+  lifeTime: 3.0
+  penetrationCount: 1
+  explosionRadius: 0.0
+
+- variant: kineticProjectile3
+  kineticDamage: 50.0
+  energeticDamage: 0.0
+  moveSpeed: 8.0
+  turnSpeed: 640.0
+  lifeTime: 3.0
+  penetrationCount: 2
+  explosionRadius: 0.0
+
+- variant: kineticProjectile4
+  kineticDamage: 200.0
+  energeticDamage: 0.0
+  moveSpeed: 0.0
+  turnSpeed: 640.0
+  lifeTime: 1.0
+  penetrationCount: 100
+  explosionRadius: 0.0
+
+- variant: energeticProjectile1
+  kineticDamage: 10.0
+  energeticDamage: 30.0
+  moveSpeed: 3.0
+  turnSpeed: 160.0
+  lifeTime: 5.0
+  penetrationCount: 1
+  explosionRadius: 8.0
+
+- variant: energeticProjectile2
+  kineticDamage: 0.0
+  energeticDamage: 0.75
+  moveSpeed: 0.0
+  turnSpeed: 640.0
+  lifeTime: 0.0
+  penetrationCount: 0
+  explosionRadius: 0.0
+
+- variant: energeticProjectile3
+  kineticDamage: 0.0
+  energeticDamage: 5.0
+  moveSpeed: 1.0
+  turnSpeed: 640.0
+  lifeTime: 3.0
+  penetrationCount: 0
+  explosionRadius: 2.0

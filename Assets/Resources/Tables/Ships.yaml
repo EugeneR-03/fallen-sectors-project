@@ -1,0 +1,35 @@
+- variant: fighter
+  kineticDamageResistance:
+    block: 5.0
+    reduction: 1.0
+  energeticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  maxHealth: 100.0
+  moveSpeed: 5.0
+  turnSpeed: 640.0
+  experienceGatheringRadius: 0.4
+
+- variant: bomber
+  kineticDamageResistance:
+    block: 5.0
+    reduction: 1.0
+  energeticDamageResistance:
+    block: 0.0
+    reduction: 1.0
+  maxHealth: 100.0
+  moveSpeed: 4.0
+  turnSpeed: 320.0
+  experienceGatheringRadius: 0.5
+
+- variant: frigate
+  kineticDamageResistance:
+    block: 5.0
+    reduction: 0.8
+  energeticDamageResistance:
+    block: 5.0
+    reduction: 0.8
+  maxHealth: 150.0
+  moveSpeed: 3.0
+  turnSpeed: 160.0
+  experienceGatheringRadius: 0.6

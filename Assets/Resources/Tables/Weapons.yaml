@@ -1,0 +1,27 @@
+- variant: machineGun
+  fireRate: 0.1
+  cost: 0
+
+- variant: heavyMachineGun
+  fireRate: 0.2
+  cost: 0
+
+- variant: largeCaliberGun
+  fireRate: 1.0
+  cost: 0
+
+- variant: railGun
+  fireRate: 5.0
+  cost: 40
+
+- variant: rocketCannon
+  fireRate: 3.5
+  cost: 20
+
+- variant: laserCannon
+  fireRate: 0.0
+  cost: 20
+
+- variant: plasmaCannon
+  fireRate: 3.0
+  cost: 20

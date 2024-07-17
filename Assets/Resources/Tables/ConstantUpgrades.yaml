@@ -1,0 +1,359 @@
+- variant: healthUpgrade
+  level: 0
+  value: 0.0
+  cost: 0
+
+- variant: healthUpgrade
+  level: 1
+  value: 10.0
+  cost: 10
+
+- variant: healthUpgrade
+  level: 2
+  value: 20.0
+  cost: 15
+
+- variant: healthUpgrade
+  level: 3
+  value: 30.0
+  cost: 20
+
+- variant: healthUpgrade
+  level: 4
+  value: 40.0
+  cost: 25
+
+- variant: healthUpgrade
+  level: 5
+  value: 50.0
+  cost: 30
+
+- variant: healthUpgrade
+  level: 6
+  value: 60.0
+  cost: 35
+
+- variant: healthUpgrade
+  level: 7
+  value: 70.0
+  cost: 40
+
+- variant: healthUpgrade
+  level: 8
+  value: 80.0
+  cost: 45
+
+- variant: kineticDamageBlockUpgrade
+  level: 0
+  value: 0
+  cost: 0
+
+- variant: kineticDamageBlockUpgrade
+  level: 1
+  value: 1
+  cost: 10
+
+- variant: kineticDamageBlockUpgrade
+  level: 2
+  value: 2
+  cost: 15
+
+- variant: kineticDamageBlockUpgrade
+  level: 3
+  value: 3
+  cost: 20
+
+- variant: kineticDamageBlockUpgrade
+  level: 4
+  value: 4
+  cost: 25
+
+- variant: kineticDamageBlockUpgrade
+  level: 5
+  value: 5
+  cost: 30
+
+- variant: kineticDamageBlockUpgrade
+  level: 6
+  value: 6
+  cost: 35
+
+- variant: kineticDamageBlockUpgrade
+  level: 7
+  value: 7
+  cost: 40
+
+- variant: kineticDamageBlockUpgrade
+  level: 8
+  value: 8
+  cost: 45
+
+- variant: energeticDamageBlockUpgrade
+  level: 0
+  value: 0
+  cost: 0
+
+- variant: energeticDamageBlockUpgrade
+  level: 1
+  value: 1
+  cost: 10
+
+- variant: energeticDamageBlockUpgrade
+  level: 2
+  value: 2
+  cost: 15
+
+- variant: energeticDamageBlockUpgrade
+  level: 3
+  value: 3
+  cost: 20
+
+- variant: energeticDamageBlockUpgrade
+  level: 4
+  value: 4
+  cost: 25
+
+- variant: energeticDamageBlockUpgrade
+  level: 5
+  value: 5
+  cost: 30
+
+- variant: energeticDamageBlockUpgrade
+  level: 6
+  value: 6
+  cost: 35
+
+- variant: energeticDamageBlockUpgrade
+  level: 7
+  value: 7
+  cost: 40
+
+- variant: energeticDamageBlockUpgrade
+  level: 8
+  value: 8
+  cost: 45
+
+- variant: kineticDamageUpgrade
+  level: 0
+  value: 1.0
+  cost: 0
+
+- variant: kineticDamageUpgrade
+  level: 1
+  value: 1.1
+  cost: 20
+
+- variant: kineticDamageUpgrade
+  level: 2
+  value: 1.2
+  cost: 40
+
+- variant: kineticDamageUpgrade
+  level: 3
+  value: 1.3
+  cost: 60
+
+- variant: kineticDamageUpgrade
+  level: 4
+  value: 1.4
+  cost: 80
+
+- variant: kineticDamageUpgrade
+  level: 5
+  value: 1.5
+  cost: 100
+
+- variant: kineticDamageUpgrade
+  level: 6
+  value: 1.6
+  cost: 120
+
+- variant: kineticDamageUpgrade
+  level: 7
+  value: 1.7
+  cost: 140
+
+- variant: kineticDamageUpgrade
+  level: 8
+  value: 1.8
+  cost: 160
+
+- variant: energeticDamageUpgrade
+  level: 0
+  value: 1.0
+  cost: 0
+
+- variant: energeticDamageUpgrade
+  level: 1
+  value: 1.1
+  cost: 20
+
+- variant: energeticDamageUpgrade
+  level: 2
+  value: 1.2
+  cost: 40
+
+- variant: energeticDamageUpgrade
+  level: 3
+  value: 1.3
+  cost: 60
+
+- variant: energeticDamageUpgrade
+  level: 4
+  value: 1.4
+  cost: 80
+
+- variant: energeticDamageUpgrade
+  level: 5
+  value: 1.5
+  cost: 100
+
+- variant: energeticDamageUpgrade
+  level: 6
+  value: 1.6
+  cost: 120
+
+- variant: energeticDamageUpgrade
+  level: 7
+  value: 1.7
+  cost: 140
+
+- variant: energeticDamageUpgrade
+  level: 8
+  value: 1.8
+  cost: 160
+
+- variant: attackSpeedUpgrade
+  level: 0
+  value: 1.0
+  cost: 0
+
+- variant: attackSpeedUpgrade
+  level: 1
+  value: 0.95
+  cost: 20
+
+- variant: attackSpeedUpgrade
+  level: 2
+  value: 0.9
+  cost: 40
+
+- variant: attackSpeedUpgrade
+  level: 3
+  value: 0.85
+  cost: 60
+
+- variant: attackSpeedUpgrade
+  level: 4
+  value: 0.8
+  cost: 80
+
+- variant: attackSpeedUpgrade
+  level: 5
+  value: 0.75
+  cost: 100
+
+- variant: attackSpeedUpgrade
+  level: 6
+  value: 0.7
+  cost: 120
+
+- variant: attackSpeedUpgrade
+  level: 7
+  value: 0.65
+  cost: 140
+
+- variant: attackSpeedUpgrade
+  level: 8
+  value: 0.6
+  cost: 160
+
+- variant: moveSpeedUpgrade
+  level: 0
+  value: 1.0
+  cost: 0
+
+- variant: moveSpeedUpgrade
+  level: 1
+  value: 1.1
+  cost: 20
+
+- variant: moveSpeedUpgrade
+  level: 2
+  value: 1.2
+  cost: 30
+
+- variant: moveSpeedUpgrade
+  level: 3
+  value: 1.3
+  cost: 40
+
+- variant: moveSpeedUpgrade
+  level: 4
+  value: 1.4
+  cost: 50
+
+- variant: moveSpeedUpgrade
+  level: 5
+  value: 1.5
+  cost: 60
+
+- variant: moveSpeedUpgrade
+  level: 6
+  value: 1.6
+  cost: 70
+
+- variant: moveSpeedUpgrade
+  level: 7
+  value: 1.7
+  cost: 80
+
+- variant: moveSpeedUpgrade
+  level: 8
+  value: 1.8
+  cost: 90
+
+- variant: turnSpeedUpgrade
+  level: 0
+  value: 1.0
+  cost: 0
+
+- variant: turnSpeedUpgrade
+  level: 1
+  value: 1.1
+  cost: 20
+
+- variant: turnSpeedUpgrade
+  level: 2
+  value: 1.2
+  cost: 30
+
+- variant: turnSpeedUpgrade
+  level: 3
+  value: 1.3
+  cost: 40
+
+- variant: turnSpeedUpgrade
+  level: 4
+  value: 1.4
+  cost: 50
+
+- variant: turnSpeedUpgrade
+  level: 5
+  value: 1.5
+  cost: 60
+
+- variant: turnSpeedUpgrade
+  level: 6
+  value: 1.6
+  cost: 70
+
+- variant: turnSpeedUpgrade
+  level: 7
+  value: 1.7
+  cost: 80
+
+- variant: turnSpeedUpgrade
+  level: 8
+  value: 1.8
+  cost: 90
