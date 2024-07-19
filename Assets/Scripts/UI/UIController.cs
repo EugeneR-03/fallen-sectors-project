@@ -175,15 +175,25 @@ public class UIController : MonoBehaviour
         {
             _gameIsInterrupted = true;
             _optionsMenu.SetActive(true);
-            ToggleSidebars(false);
-            TogglePlayerWeapons(false);
+
+            // проверяем, открыто ли меню паузы, т. к. меню настроек можно открыть и из меню паузы
+            if (!_gameIsPaused)
+            {
+                ToggleSidebars(false);
+                TogglePlayerWeapons(false);
+            }            
         }
         else
         {
             _gameIsInterrupted = false;
             _optionsMenu.SetActive(false);
-            ToggleSidebars(true);
-            TogglePlayerWeapons(true);
+
+            // проверяем, открыто ли меню паузы, т. к. меню настроек можно открыть и из меню паузы
+            if (!_gameIsPaused)
+            {
+                ToggleSidebars(true);
+                TogglePlayerWeapons(true);
+            }
         }
     }
 
