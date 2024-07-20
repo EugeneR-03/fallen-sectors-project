@@ -33,6 +33,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private TemporaryUpgrade _selectedUpgrade;
 
     private void Awake() {
+        Instance = this;
         _seconds = 0;
         _minutes = 0;
         _kills = 0;

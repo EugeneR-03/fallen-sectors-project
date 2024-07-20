@@ -111,6 +111,23 @@ public static class UserDataRepository
         _userData = data;
     }
 
+    public static void SaveDataWithAllProgress()
+    {
+        string fileName = "PlayerInfoDev.dat";
+        string fileDir = Application.persistentDataPath + "/Saves/";
+        string filePath = fileDir + fileName;
+        if (!Directory.Exists(fileDir))
+        {
+            Directory.CreateDirectory(fileDir);
+        }
+        FileStream file = File.Create(filePath);
+
+        BinaryFormatter bf = new();
+        bf.Serialize(file, _userData);
+        file.Close();
+        Debug.Log("Game data saved");
+    }
+
     public static void SaveData()
     {
         string fileName = "PlayerInfo.dat";

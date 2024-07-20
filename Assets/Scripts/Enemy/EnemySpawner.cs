@@ -27,6 +27,8 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Instance = this;
+
         _difficultyLevel = 0;
         _difficultyHealthMultiplier = 1.0f;
         _waveSpawnRate = 1f;

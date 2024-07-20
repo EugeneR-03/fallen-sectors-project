@@ -44,8 +44,12 @@ public class ConstantUpgradePanel : MonoBehaviour
     private void SetActiveCost()
     {
         int increaseCost = _constantUpgrade.Cost;
-        ConstantUpgrade nextLevelUpgrade = Tables.ConstantUpgradeStats[_constantUpgradeVariant][_constantUpgrade.Level + 1];
-        int decreaseCost = nextLevelUpgrade.Cost;
+        int decreaseCost = 0;
+        if (_constantUpgrade.Level < 8)
+        {
+            ConstantUpgrade nextLevelUpgrade = Tables.ConstantUpgradeStats[_constantUpgradeVariant][_constantUpgrade.Level + 1];
+            decreaseCost = nextLevelUpgrade.Cost;
+        }        
 
         _increaseCostTMP.text = increaseCost.ToString();
         _decreaseCostTMP.text = decreaseCost.ToString();

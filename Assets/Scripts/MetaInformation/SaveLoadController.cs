@@ -18,7 +18,17 @@ public class SaveLoadController : MonoBehaviour
 
     private void Start()
     {
-        Instance = this;
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
         UserDataController.Instance.OnDataChanged += () => OnDataChanged?.Invoke();
         OnDataChanged += () => SaveGame();
         LoadGame();

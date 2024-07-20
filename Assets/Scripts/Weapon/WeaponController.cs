@@ -54,11 +54,18 @@ public class WeaponController : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _transform = GetComponent<Transform>();
 
-        WeaponStats = new Weapon(_weaponVariant);
+        if (WeaponStats == null)
+        {
+            WeaponStats = new Weapon(_weaponVariant);
+        }
+        
         _projectile = GetProjectile(_weaponVariant);
         ProjectileController projectileController = _projectile.GetComponent<ProjectileController>();
         Debug.Log("ProjectileVariant: " + projectileController.GetProjectileVariant());
-        ProjectileStats = new Projectile(projectileController.GetProjectileVariant());
+        if (ProjectileStats == null)
+        {
+            ProjectileStats = new Projectile(projectileController.GetProjectileVariant());
+        }
 
         Debug.Log("FireSystems: " + _projectileSystem + " " + _scanSystem);
         SpecificInit(_weaponVariant);
@@ -438,7 +445,6 @@ public class WeaponController : MonoBehaviour
 
             _fireRate = fireRate;
             _canFire = false;
-            Debug.Log("Shooting. FireRate: " + _fireRate + " Timer: " + _timer + " CanFire: " + _canFire);
             _animator.speed = _initialAnimationSpeed / _fireRate;
             _animator.SetBool(_animatorBoolName, true);
 
